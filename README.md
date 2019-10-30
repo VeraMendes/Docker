@@ -33,7 +33,7 @@ python3
 
 ### example of testing:
 
->>> from lambdata_veramendes import RANDINT
+`>>> from lambdata_veramendes import RANDINT
 >>> RANDINT
     0
 0  33
@@ -59,4 +59,4 @@ python3
 1
 >>> from lambdata_veramendes import increment
 >>> increment(3)
-4
+4`
