@@ -17,7 +17,7 @@ cd lambdata
 touch Dockerfile
 
 #### enter file with nano to introduce the content on **Dockerfile** file in this repo:
-nano
+nano Dockerfile
 
 #### build the Dockerfile image:
 docker build . -t lambdata_veramendes
