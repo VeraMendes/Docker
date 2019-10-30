@@ -32,6 +32,30 @@ docker container ls -a
 python3
 
 ### example of testing:
-
-
-
+>>> from lambdata_veramendes import RANDINT
+>>> RANDINT
+    0
+0  33
+1  31
+2  58
+3  50
+4  41
+5   9
+6  82
+7  28
+8  26
+9  53
+>>> from lambdata_veramendes import Date
+>>> Date
+<class 'lambdata_veramendes.Date'>
+>>> date = Date()
+>>> date()
+>>> date.get_year()
+1900
+>>> date.get_month()
+1
+>>> date.get_day()
+1
+>>> from lambdata_veramendes import increment
+>>> increment(3)
+4
